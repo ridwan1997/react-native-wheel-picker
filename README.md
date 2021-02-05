@@ -1,6 +1,6 @@
 # React Native Wheel Picker
-[![npm version](http://img.shields.io/npm/v/@gregfrench/react-native-wheel-picker.svg?style=flat-square)](https://www.npmjs.com/package/@gregfrench/react-native-wheel-picker "View this project on npm")
-[![npm version](http://img.shields.io/npm/dm/@gregfrench/react-native-wheel-picker.svg?style=flat-square)](https://www.npmjs.com/package/@gregfrench/react-native-wheel-picker "View this project on npm")
+[![npm version](http://img.shields.io/npm/v/@ridwan1997/react-native-wheel-picker.svg?style=flat-square)](https://www.npmjs.com/package/@ridwan1997/react-native-wheel-picker "View this project on npm")
+[![npm version](http://img.shields.io/npm/dm/@ridwan1997/react-native-wheel-picker.svg?style=flat-square)](https://www.npmjs.com/package/@ridwan1997/react-native-wheel-picker "View this project on npm")
 
 ## Introduction
 Cross platform Picker component based on React-native.
@@ -18,11 +18,11 @@ Run command
 
 For apps using RN 0.40 or higher, please run
 ```
-npm i @gregfrench/react-native-wheel-picker --save
+npm i @ridwan1997/react-native-wheel-picker --save
 ```
 To link the project, please run
 ```
-react-native link @gregfrench/react-native-wheel-picker
+react-native link @ridwan1997/react-native-wheel-picker
 ```
 
 ## Example code (using functional components)
@@ -30,7 +30,7 @@ react-native link @gregfrench/react-native-wheel-picker
 import React, { useState } from 'react';
 import { View, Text } from 'react-native';
 
-import Picker from '@gregfrench/react-native-wheel-picker'
+import Picker from '@ridwan1997/react-native-wheel-picker'
 var PickerItem = Picker.Item;
 
 const WheelPicker = () => {
@@ -63,7 +63,7 @@ export default WheelPicker;
 import React, { Component } from 'react';
 import { Text, View } from 'react-native';
 
-import Picker from '@gregfrench/react-native-wheel-picker'
+import Picker from '@ridwan1997/react-native-wheel-picker'
 var PickerItem = Picker.Item;
 
 export default class WheelPicker extends Component {
