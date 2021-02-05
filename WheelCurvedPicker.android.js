@@ -99,6 +99,7 @@ WheelCurvedPicker.propTypes = {
 	lineColor: PropTypes.any,
 	lineGradientColorFrom: PropTypes.any,
 	lineGradientColorTo: PropTypes.any,
+	selectedTextColor: PropTypes.string,
 }
 
 Item.propTypes = {

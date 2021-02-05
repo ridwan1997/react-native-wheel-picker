@@ -111,6 +111,14 @@ public class ReactWheelCurvedPickerManager extends SimpleViewManager<ReactWheelC
         }
     }
 
+    @ReactProp(name="selectedTextColor")
+    public void selectedTextColor(ReactWheelCurvedPicker picker, String color) {
+        if (picker != null) {
+            picker.setCurrentTextColor(Utils.parseColor(color));
+            picker.invalidate();
+        }
+    }
+
     @Override
     public String getName() {
         return REACT_CLASS;
