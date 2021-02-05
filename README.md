@@ -41,11 +41,10 @@ const WheelPicker = () => {
     <View>
       <Text>
         <Picker style={{width: 150, height: 180}}
-          lineColor="#000000" //to set top and bottom line color (Without gradients)
-          lineGradientColorFrom="#008000" //to set top and bottom starting gradient line color
-          lineGradientColorTo="#FF5733" //to set top and bottom ending gradient
+          lineColor="#bebebe" //to set top and bottom line color (Without gradients)
           selectedValue={selectedItem}
-          itemStyle={{color:"black", fontSize:26}}
+          itemStyle={{color:"#9c9c9c", fontSize:26}}
+          selectedTextColor={"#000000"}
           onValueChange={(index) => setSelectedItem(index) }>
           {itemList.map((value, i) => (
             <PickerItem label={value} value={i} key={i}/>
